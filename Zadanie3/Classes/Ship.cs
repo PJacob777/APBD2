@@ -6,6 +6,7 @@ public class Ship
     public double Speed { get; }
     public int MaxLoad { get; }
     public double MaxWeightOfLoad { get; }
+    public string KindOfProducts { get; }
 
     public Ship(List<Container> listOfContainers, double speed, int maxLoad, double maxWeightOfLoad)
     {
@@ -43,9 +44,47 @@ public class Ship
 
     public void RemoveContainer(Container c)
     {
-        if (ListOfContainers.Find(c))
+        int index=ListOfContainers.IndexOf(c);
+        if (index!=-1)
+            ListOfContainers.RemoveAt(index);
+            
+    }
+
+    public Container ReturnContainer(Container c)
+    {
+        int i = ListOfContainers.IndexOf(c);
+        if(i!=-1)   
+            return ListOfContainers[i];
+        return null;
+    }
+
+    public void ChangeContainer(string desc, Container dest)
+    {
+        int tmp = 0;
+        for (int i = 0; i < ListOfContainers.Capacity; i++)
         {
-            ListOfContainers.Remove(c);   
+            if (ListOfContainers[i].Desc.Equals(desc))
+                ListOfContainers[i] = dest;
+
         }
+    }
+
+    public static void MoveContainer(Ship a, Ship b, Container container)
+    {
+        int i = a.ListOfContainers.IndexOf(container);
+        a.ListOfContainers.RemoveAt(i);
+        b.ListOfContainers.Add(container);
+    }
+
+    public override string ToString()
+    {
+        string products = "";
+        foreach (var container in ListOfContainers)
+        {
+            if(!products.Contains(container.Desc[5]))
+                products = +container.Desc[5] + " ";
+        }
+
+        return "Ship " + products;
     }
 }

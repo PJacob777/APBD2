@@ -8,14 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2898217-5860-444f-aa65-623a675c25b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Zadanie3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Classes/Container.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Classes/CoolantContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Classes/GasContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Classes/LiquidContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Classes/Ship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Exceptions/OverfillException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie3/Interfaces/IHazardNotifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadanie3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadanie3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadanie3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadanie3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie3/Classes/Ship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie3/Classes/Ship.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -84,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1710794013996</updated>
       <workItem from="1710794015507" duration="3524000" />
-      <workItem from="1710869035698" duration="11847000" />
+      <workItem from="1710869035698" duration="13179000" />
+      <workItem from="1711026189893" duration="1986000" />
     </task>
     <servers />
   </component>
